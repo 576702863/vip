@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 自定义显示风格的Toast的布局文件 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toast_custom_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/toast_custom_view_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/toast_custom_text_paddingTB"
+        android:paddingBottom="@dimen/toast_custom_text_paddingTB"
+        android:paddingLeft="@dimen/toast_custom_text_paddingLR"
+        android:paddingRight="@dimen/toast_custom_text_paddingLR"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/toast_custom_text_size"/>
+
+</LinearLayout>

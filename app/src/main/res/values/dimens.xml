@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- **************自定义显示风格的Toast布局文件********************* -->
+    <!-- 提示文字的大小 -->
+    <dimen name="toast_custom_text_size">18sp</dimen>
+    <!-- 提示文字的内边距（上下） -->
+    <dimen name="toast_custom_text_paddingTB">10dp</dimen>
+    <!-- 提示文字的内边距（左右） -->
+    <dimen name="toast_custom_text_paddingLR">20dp</dimen>
+    <!-- 背景的圆角 -->
+    <dimen name="toast_custom_view_bg_corners">30dp</dimen>
+</resources>
